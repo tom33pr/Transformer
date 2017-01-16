@@ -1,0 +1,8 @@
+--- 
+applications: 
+  - 
+    command: "node nodeServer.js"
+    name: Transformer
+    timeout: 180
+    memory: 128M
+
