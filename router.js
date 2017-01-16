@@ -29,8 +29,6 @@ module.exports = {
                 handleRequest('./Client/Main.html', response); //provide your path for the Main.html here
                 break;
             case '/techLog':
-		    
-                    
                     client.connect();
                     client.query("INSERT INTO testtable(id, testdata) values($1, $2)", [1, 'Hello world']);
                 if (request.method === 'POST') {
